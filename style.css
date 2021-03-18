@@ -209,3 +209,6 @@ text-decoration: underline dotted white;
    -webkit-animation-duration: 10s;
   }
   }
+  .navbar-brand{
+   font-family: 'IM Fell English', serif;
+  }
