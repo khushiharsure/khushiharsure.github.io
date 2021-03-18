@@ -196,6 +196,7 @@ text-decoration: underline dotted white;
    from{-webkit-transform: rotateY(0deg);}
    to{-webkit-transform: rotateY(360deg);}
   }
+  
   .image2{
    animation-name: spin;
    animation-timing-function: linear;
@@ -206,3 +207,8 @@ text-decoration: underline dotted white;
    -webkit-animation-iteration-count: infinite;
    -webkit-animation-duration: 10s;
   }
+  @media screen and (max-width: 600px) {
+ .image2 {
+   animation: none;
+   }
+ }
