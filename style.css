@@ -180,34 +180,9 @@ text-decoration: underline dotted white;
 @keyframes icons{
    50% {transform: rotate(360deg);}
  }
- @keyframes spin {
-   from{
-   transform: rotateY(0deg);
-   moz-transform: rotateY(0deg); //Firefox
-   ms-transform: rotateY(0deg); //Microsoft Browsers
-   }
-   to{
-   transform: rotateY(360deg);
-   moz-transform: rotateY(360deg); //Firefox
-   ms-transform: rotateY(360deg); //Microsoft Browsers
-   }
-  }
-  @-webkit-keyframes spin{
-   from{-webkit-transform: rotateY(0deg);}
-   to{-webkit-transform: rotateY(360deg);}
-  }
+
   
-  @media screen and (min-width: 600px) {
-  .image2{
-   animation-name: spin;
-   animation-timing-function: linear;
-   animation-iteration-count: infinite;
-   animation-duration: 10s;
-   -webkit-animation-name: spin;
-   -webkit-animation-timing-function: linear;
-   -webkit-animation-iteration-count: infinite;
-   -webkit-animation-duration: 10s;
-  }
+
   }
   .navbar-brand{
    font-family: 'IM Fell English', serif;
